@@ -1,0 +1,17 @@
+conda create -n smallscene
+https://pytorch.org/get-started/previous-versions/
+
+conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cuda=11.6 -c pytorch -c nvidia
+
+pip install hydra-core
+pip install opencv-python
+pip install pandas
+pip install thop
+pip install matplotlib
+pip install tqdm
+pip install easydict
+pip install tensorboard
+pip install yacs
+pip install torchvision
+pip install timm
+pip install scipy
