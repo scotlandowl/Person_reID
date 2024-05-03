@@ -1,4 +1,6 @@
 # 简介
+English version, click [README_EN](README_EN.md)
+
 ## 概述
 相比于以往的 yolo+deepsort 方法，可以实现多视频、跨镜头、长时空间跨度的人物重识别，生成基于输入视频的轨迹视频和视角转换后的轨迹视频
 
@@ -19,14 +21,11 @@
 ## 准备
 
 ### 下载链接
-下载 bounding_box_train_100.zip 到 ultralytics/yolo/v8/detect/data/Small_Scenes 中，并解压.
-链接：https://drive.google.com/file/d/1YElOXJKCpK85kaiYTLjZ6GdkUby1uw7G/view?usp=drive_link
+下载 [bounding_box_train_100.zip](https://drive.google.com/file/d/1YElOXJKCpK85kaiYTLjZ6GdkUby1uw7G/view?usp=drive_link) 到 ultralytics/yolo/v8/detect/data/Small_Scenes 中，并解压.
 
-下载 transformer_100.pth 到 ultralytics/yolo/v8/detect/logs/duke_vit_transreid_stride 中.
-链接：https://drive.google.com/file/d/1UoerBon_hyGEXAyIVLWO4aky_WaX30Mp/view?usp=drive_link
+下载 [transformer_100.pth](https://drive.google.com/file/d/1UoerBon_hyGEXAyIVLWO4aky_WaX30Mp/view?usp=drive_link) 到 ultralytics/yolo/v8/detect/logs/duke_vit_transreid_stride 中.
 
-下载 vit_small_p16_224-15ec54c9.pth 到 ultralytics/yolo/v8/detect/model 中.
-链接：https://drive.google.com/file/d/1bSmU39XlmQiaDxOQuvU4zwdpRnC__TaT/view?usp=drive_link
+下载 [vit_small_p16_224-15ec54c9.pth](https://drive.google.com/file/d/1bSmU39XlmQiaDxOQuvU4zwdpRnC__TaT/view?usp=drive_link) 到 ultralytics/yolo/v8/detect/model 中.
 
 ### 待处理视频
 将需要进行识别的视频 test.mp4 放在 ultralytics/yolo/v8/detect 目录下，并将 small_scene.sh 中的 video_file 修改为 "test.mp4"
