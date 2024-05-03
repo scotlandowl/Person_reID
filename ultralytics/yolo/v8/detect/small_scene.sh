@@ -22,6 +22,6 @@ python ./reID.py
 # 输出透视视角下的人物轨迹，视频在 ./runs/detect
 python output.py model=yolov8l.pt source="$video_file"
 
-# 输出俯视视角下的人物轨迹，视频在 ./
+# 输出俯视视角下的人物轨迹，视频 output_vedio.mp4 在 ./ 中
 python output_overlook.py model=yolov8l.pt source="$video_file"
 
